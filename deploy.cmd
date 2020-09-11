@@ -71,7 +71,7 @@ echo Detected requirements.txt. RUNNING CUSTOM DEPLOYMENT
 
 :: 2. Install packages
 echo Pip install requirements.
-D:\home\python364x86\python.exe -m pip install --upgrade -r requirements.txt
+C:\home\python364x64\python.exe -m pip install --upgrade -r requirements.txt
 IF !ERRORLEVEL! NEQ 0 goto error
 
 popd
